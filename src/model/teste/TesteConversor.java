@@ -20,6 +20,11 @@ public class TesteConversor {
         System.out.printf("%.2f°C -- %.2f°F\n",0.0, con.celFah(0.0));
         System.out.printf("%.2f°C -- %.2f°F\n",-40.0, con.celFah(-40.0));
         System.out.printf("%.2f°C -- %.2f°F\n",38.0, con.celFah(38.0));
+        
+        System.out.println("\n\t\t\t --Convertendo °F para °C--\n");
+        System.out.printf("%.2f°C -- %.2f°F\n",32.0, con.fahCel(32.0));
+        System.out.printf("%.2f°C -- %.2f°F\n",-40.0, con.fahCel(-40.0));
+        System.out.printf("%.2f°C -- %.2f°F\n",100.4, con.fahCel(100.4));
     }
     
 }

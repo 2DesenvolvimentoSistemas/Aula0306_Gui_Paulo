@@ -16,5 +16,8 @@ public class Conversor {
         return 9 * cel / 5 + 32;
         
     }
+    public double fahCel(double fah){
+        return (fah - 32) / 9 * 5;
+    }
     
 }
